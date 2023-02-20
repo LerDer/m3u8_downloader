@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>m3u8</title>
+</head>
+<body>
+<div id="app" class="app-main">
+    <el-tabs v-model="activeName" @tab-click="handleClick">
+        <el-tab-pane label="m3u8视频下载" name="three">
+
+            <el-form :model="video" class="demo-form-inline">
+                <el-form-item label="视频链接">
+                    <el-input type="text" v-model="video.m3u8Url" style="width:680px;" class="share-url-input" clearable placeholder="请输入m3u8链接"></el-input>
+                </el-form-item>
+                <el-form-item label="视频名称">
+                    <el-input type="text" v-model="video.fileName" style="width:680px;" class="share-url-input" clearable placeholder="请输入视频名称"></el-input>
+                </el-form-item>
+                <el-form-item label="保存路径">
+                    <el-input type="text" v-model="video.path" style="width:680px;" class="share-url-input" clearable placeholder="请输入保存路径"></el-input>
+                </el-form-item>
+
+                <el-form-item>
+                    <el-button type="primary" :loading="downloadingVideo" @click="saveM3U8">下载</el-button>
+                </el-form-item>
+            </el-form>
+
+        </el-tab-pane>
+    </el-tabs>
+</div>
+
+</body>
+<script src="./vue-dev.js"></script>
+<script src="./element-ui.js"></script>
+<script src="./axios.min.js"></script>
+
+<script>
+  new Vue({
+    el: "#app",
+    data: {
+      activeName: "three",
+      downloadingVideo: false,
+      video: {
+        m3u8Url: "",
+        path: "",
+        fileName: ""
+      }
+    },
+    methods: {
+      saveM3U8() {
+        this.downloadingVideo = true;
+        const form = new FormData();
+        form.append('m3u8Url', this.video.m3u8Url);
+        form.append('path', this.video.path);
+        form.append('fileName', this.video.fileName);
+        axios({
+          method: "post",
+          url: "/m3u8/m3u8/my/one",
+          data: form
+        }).then(res => {
+          this.downloadingVideo = false;
+          let data = res.data;
+          if (data.code === -1) {
+            this.tableLoading = false;
+            this.$message({
+              message: data.message,
+              type: 'error',
+              center: true
+            });
+          } else {
+            this.$message({
+              message: data.entry,
+              type: 'success',
+              center: true
+            });
+          }
+        })
+      },
+
+      handleClick(tab, event) {
+        // console.log(tab, event);
+      },
+    }
+  })
+</script>
+
+<style>
+    .app-main {
+        padding: 20px;
+    }
+
+</style>
+</html>

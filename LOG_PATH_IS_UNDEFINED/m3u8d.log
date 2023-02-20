@@ -1,0 +1,841 @@
+2023-02-20 10:09:16.471 [INFO] 60221 [080-exec-3] [c.l.u.M3U8Utils][219]  共 7个片段
+2023-02-20 10:09:16.477 [INFO] 60221 [080-exec-3] [c.l.u.M3U8Utils][220]  总时长 = 0分钟31秒
+2023-02-20 10:09:16.479 [INFO] 60221 [080-exec-3] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:09:16.479 [INFO] 60221 [l-worker-1] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:09:16.479 [INFO] 60221 [l-worker-3] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:09:16.480 [INFO] 60221 [l-worker-0] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:09:16.480 [INFO] 60221 [l-worker-2] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:09:19.841 [INFO] 60221 [l-worker-2] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 2
+2023-02-20 10:09:21.557 [INFO] 60221 [l-worker-1] [c.l.u.M3U8Utils][235]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 1
+2023-02-20 10:09:23.911 [INFO] 60221 [080-exec-3] [c.l.u.M3U8Utils][249]  文件下载完毕
+2023-02-20 10:09:23.912 [INFO] 60221 [080-exec-3] [c.l.u.M3U8Utils][260]  开始合并...
+2023-02-20 10:09:23.925 [INFO] 60221 [080-exec-3] [c.l.u.M3U8Utils][278]  合并完成
+2023-02-20 10:09:23.926 [INFO] 60221 [080-exec-3] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:09:26.970 [INFO] 60221 [080-exec-3] [c.l.u.FfmpegUtils][57]  转码完成,耗时: 3秒
+2023-02-20 10:09:26.971 [INFO] 60221 [080-exec-3] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟13秒
+2023-02-20 10:09:35.985 [INFO] 60221 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:09:42.021 [INFO] 41711 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 41711 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:09:42.026 [INFO] 41711 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:09:42.861 [INFO] 41711 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:09:42.869 [INFO] 41711 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:09:42.870 [INFO] 41711 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:09:42.870 [INFO] 41711 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:09:42.948 [INFO] 41711 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:09:42.949 [INFO] 41711 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 862 ms
+2023-02-20 10:09:43.080 [INFO] 41711 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:09:43.137 [INFO] 41711 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:09:43.248 [INFO] 41711 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:09:43.275 [INFO] 41711 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:09:43.284 [INFO] 41711 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.563 seconds (JVM running for 2.116)
+2023-02-20 10:09:48.464 [INFO] 41711 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:09:48.465 [INFO] 41711 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:09:48.469 [INFO] 41711 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 4 ms
+2023-02-20 10:09:50.448 [INFO] 41711 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:09:50.448 [INFO] 41711 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:09:50.452 [INFO] 41711 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:09:50.452 [INFO] 41711 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:09:50.452 [INFO] 41711 [l-worker-0] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:09:50.453 [INFO] 41711 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:09:50.512 [ERROR] 41711 [080-exec-1] [c.l.c.DefaultGlobalExceptionHandler][61]  handleException, ex caught, uri=/m3u8/m3u8/my/one, httpResult={"code":-1,"message":"服务器异常！","status":false}
+java.lang.NullPointerException: null
+	at com.ler.utils.M3U8Utils.lambda$downloadAllTs$0(M3U8Utils.java:233)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.ler.utils.M3U8Utils.downloadAllTs(M3U8Utils.java:228)
+	at com.ler.utils.M3U8Utils.download(M3U8Utils.java:45)
+	at com.ler.controller.M3U8Controller.myOne(M3U8Controller.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-02-20 10:10:17.795 [INFO] 41711 [080-exec-2] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:10:17.797 [INFO] 41711 [080-exec-2] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:10:39.113 [INFO] 41711 [l-worker-0] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:10:39.113 [INFO] 41711 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:10:39.113 [INFO] 41711 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:10:39.113 [INFO] 41711 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:10:39.113 [INFO] 41711 [080-exec-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:10:54.452 [INFO] 41711 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 2
+2023-02-20 10:10:55.326 [INFO] 41711 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:10:59.805 [INFO] 41711 [080-exec-2] [c.l.u.M3U8Utils][251]  文件下载完毕
+2023-02-20 10:10:59.811 [INFO] 41711 [080-exec-2] [c.l.u.M3U8Utils][262]  开始合并...
+2023-02-20 10:10:59.836 [INFO] 41711 [080-exec-2] [c.l.u.M3U8Utils][280]  合并完成
+2023-02-20 10:10:59.838 [INFO] 41711 [080-exec-2] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:11:00.360 [INFO] 41711 [080-exec-2] [c.l.u.FfmpegUtils][57]  转码完成,耗时: 0秒
+2023-02-20 10:11:00.360 [INFO] 41711 [080-exec-2] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟43秒
+2023-02-20 10:12:39.860 [INFO] 41711 [080-exec-4] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:12:39.860 [INFO] 41711 [080-exec-4] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:12:39.861 [INFO] 41711 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:12:39.861 [INFO] 41711 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:12:39.861 [INFO] 41711 [080-exec-4] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:12:39.861 [INFO] 41711 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:12:39.862 [INFO] 41711 [l-worker-0] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:12:41.699 [INFO] 41711 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:12:42.301 [INFO] 41711 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 1
+2023-02-20 10:12:43.603 [INFO] 41711 [080-exec-4] [c.l.u.M3U8Utils][251]  文件下载完毕
+2023-02-20 10:12:43.603 [INFO] 41711 [080-exec-4] [c.l.u.M3U8Utils][262]  开始合并...
+2023-02-20 10:12:43.617 [INFO] 41711 [080-exec-4] [c.l.u.M3U8Utils][280]  合并完成
+2023-02-20 10:12:43.617 [INFO] 41711 [080-exec-4] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:17:24.446 [INFO] 42007 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42007 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:17:24.449 [INFO] 42007 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:17:25.239 [INFO] 42007 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:17:25.248 [INFO] 42007 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:17:25.249 [INFO] 42007 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:17:25.250 [INFO] 42007 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:17:25.332 [INFO] 42007 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:17:25.332 [INFO] 42007 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 845 ms
+2023-02-20 10:17:25.509 [INFO] 42007 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:17:25.594 [INFO] 42007 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:17:25.704 [INFO] 42007 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:17:25.738 [INFO] 42007 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:17:25.752 [INFO] 42007 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.668 seconds (JVM running for 2.216)
+2023-02-20 10:17:38.785 [INFO] 42007 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:17:38.786 [INFO] 42007 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:17:38.791 [INFO] 42007 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 10:19:11.696 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:19:11.696 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:19:11.700 [INFO] 42007 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:19:11.700 [INFO] 42007 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:19:11.700 [INFO] 42007 [l-worker-0] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:19:11.700 [INFO] 42007 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:19:11.700 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:19:15.089 [INFO] 42007 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:19:15.094 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 2
+2023-02-20 10:19:24.831 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][251]  文件下载完毕
+2023-02-20 10:19:24.832 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][262]  开始合并...
+2023-02-20 10:19:24.844 [INFO] 42007 [080-exec-1] [c.l.u.M3U8Utils][280]  合并完成
+2023-02-20 10:19:24.850 [INFO] 42007 [080-exec-1] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:20:30.399 [INFO] 42143 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42143 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:20:30.402 [INFO] 42143 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:20:31.242 [INFO] 42143 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:20:31.251 [INFO] 42143 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:20:31.251 [INFO] 42143 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:20:31.252 [INFO] 42143 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:20:31.329 [INFO] 42143 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:20:31.329 [INFO] 42143 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 897 ms
+2023-02-20 10:20:31.483 [INFO] 42143 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:20:31.543 [INFO] 42143 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:20:31.622 [INFO] 42143 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:20:31.642 [INFO] 42143 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:20:31.649 [INFO] 42143 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.574 seconds (JVM running for 2.049)
+2023-02-20 10:20:31.789 [INFO] 42143 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:20:31.789 [INFO] 42143 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:20:31.795 [INFO] 42143 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 10:20:46.724 [INFO] 42143 [080-exec-2] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:20:46.724 [INFO] 42143 [080-exec-2] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:20:46.728 [INFO] 42143 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 6
+2023-02-20 10:20:46.728 [INFO] 42143 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 6
+2023-02-20 10:20:46.728 [INFO] 42143 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 6
+2023-02-20 10:20:46.728 [INFO] 42143 [080-exec-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 6
+2023-02-20 10:20:46.728 [INFO] 42143 [l-worker-0] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 6
+2023-02-20 10:20:49.354 [INFO] 42143 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 1
+2023-02-20 10:20:50.916 [INFO] 42143 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 0
+2023-02-20 10:20:53.448 [INFO] 42143 [080-exec-2] [c.l.u.M3U8Utils][251]  文件下载完毕
+2023-02-20 10:20:53.449 [INFO] 42143 [080-exec-2] [c.l.u.M3U8Utils][262]  开始合并...
+2023-02-20 10:20:53.459 [INFO] 42143 [080-exec-2] [c.l.u.M3U8Utils][280]  合并完成
+2023-02-20 10:20:53.462 [INFO] 42143 [080-exec-2] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:21:11.729 [INFO] 42143 [080-exec-2] [c.l.u.FfmpegUtils][60]  转码完成,耗时: 18秒
+2023-02-20 10:21:11.729 [INFO] 42143 [080-exec-2] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟27秒
+2023-02-20 10:21:36.468 [INFO] 42143 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:21:59.034 [INFO] 42213 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42213 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:21:59.041 [INFO] 42213 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:21:59.783 [INFO] 42213 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:21:59.789 [INFO] 42213 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:21:59.790 [INFO] 42213 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:21:59.790 [INFO] 42213 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:21:59.849 [INFO] 42213 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:21:59.849 [INFO] 42213 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 752 ms
+2023-02-20 10:21:59.971 [INFO] 42213 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:22:00.033 [INFO] 42213 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:22:00.150 [INFO] 42213 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:22:00.208 [INFO] 42213 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:22:00.220 [INFO] 42213 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.629 seconds (JVM running for 2.341)
+2023-02-20 10:22:05.205 [INFO] 42213 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:22:05.205 [INFO] 42213 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:22:05.210 [INFO] 42213 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 10:22:07.122 [INFO] 42213 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:22:07.123 [INFO] 42213 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:22:07.126 [INFO] 42213 [l-worker-2] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:22:07.126 [INFO] 42213 [l-worker-0] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:22:07.127 [INFO] 42213 [l-worker-3] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:22:07.127 [INFO] 42213 [l-worker-1] [c.l.u.M3U8Utils][237]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:22:07.184 [ERROR] 42213 [080-exec-1] [c.l.c.DefaultGlobalExceptionHandler][61]  handleException, ex caught, uri=/m3u8/m3u8/my/one, httpResult={"code":-1,"message":"服务器异常！","status":false}
+java.lang.NullPointerException: null
+	at com.ler.utils.M3U8Utils.lambda$downloadAllTs$0(M3U8Utils.java:233)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.ler.utils.M3U8Utils.downloadAllTs(M3U8Utils.java:228)
+	at com.ler.utils.M3U8Utils.download(M3U8Utils.java:45)
+	at com.ler.controller.M3U8Controller.myOne(M3U8Controller.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-02-20 10:26:51.534 [INFO] 42213 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:26:56.040 [INFO] 42404 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42404 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:26:56.043 [INFO] 42404 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:26:56.768 [INFO] 42404 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:26:56.778 [INFO] 42404 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:26:56.779 [INFO] 42404 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:26:56.780 [INFO] 42404 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:26:56.858 [INFO] 42404 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:26:56.858 [INFO] 42404 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 782 ms
+2023-02-20 10:26:57.036 [INFO] 42404 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:26:57.099 [INFO] 42404 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:26:57.192 [INFO] 42404 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:26:57.216 [INFO] 42404 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:26:57.224 [INFO] 42404 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.517 seconds (JVM running for 2.05)
+2023-02-20 10:30:02.418 [INFO] 42404 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:30:02.419 [INFO] 42404 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:30:02.423 [INFO] 42404 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 4 ms
+2023-02-20 10:30:05.766 [INFO] 42404 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:30:05.767 [INFO] 42404 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:30:05.771 [INFO] 42404 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:30:05.771 [INFO] 42404 [l-worker-3] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:30:05.771 [INFO] 42404 [080-exec-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:30:05.771 [INFO] 42404 [l-worker-0] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:30:05.771 [INFO] 42404 [l-worker-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:30:12.497 [INFO] 42404 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:30:15.874 [INFO] 42404 [l-worker-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 1
+2023-02-20 10:30:18.883 [INFO] 42404 [080-exec-1] [c.l.u.M3U8Utils][256]  文件下载完毕
+2023-02-20 10:30:18.884 [INFO] 42404 [080-exec-1] [c.l.u.M3U8Utils][267]  开始合并...
+2023-02-20 10:30:18.897 [INFO] 42404 [080-exec-1] [c.l.u.M3U8Utils][285]  合并完成
+2023-02-20 10:30:18.903 [INFO] 42404 [080-exec-1] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:31:36.911 [INFO] 42404 [080-exec-1] [c.l.u.FfmpegUtils][60]  转码完成,耗时: 78秒
+2023-02-20 10:31:36.912 [INFO] 42404 [080-exec-1] [c.l.c.M3U8Controller][40]  已完成,耗时: 1分钟34秒
+2023-02-20 10:32:18.158 [INFO] 42404 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:32:22.238 [INFO] 42618 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42618 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:32:22.241 [INFO] 42618 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:32:23.036 [INFO] 42618 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:32:23.044 [INFO] 42618 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:32:23.045 [INFO] 42618 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:32:23.046 [INFO] 42618 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:32:23.123 [INFO] 42618 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:32:23.124 [INFO] 42618 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 847 ms
+2023-02-20 10:32:23.254 [INFO] 42618 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:32:23.310 [INFO] 42618 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:32:23.391 [INFO] 42618 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:32:23.415 [INFO] 42618 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:32:23.423 [INFO] 42618 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.525 seconds (JVM running for 1.992)
+2023-02-20 10:34:15.329 [INFO] 42618 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:34:15.329 [INFO] 42618 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:34:15.334 [INFO] 42618 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 10:34:17.883 [INFO] 42618 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:34:17.883 [INFO] 42618 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:34:17.887 [INFO] 42618 [l-worker-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:34:17.887 [INFO] 42618 [l-worker-3] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:34:17.887 [INFO] 42618 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:34:17.887 [INFO] 42618 [080-exec-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:34:17.887 [INFO] 42618 [l-worker-0] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:34:21.965 [INFO] 42618 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:34:24.784 [ERROR] 42618 [080-exec-1] [c.l.c.DefaultGlobalExceptionHandler][61]  handleException, ex caught, uri=/m3u8/m3u8/my/one, httpResult={"code":-1,"message":"服务器异常！","status":false}
+java.lang.NullPointerException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.ler.utils.M3U8Utils.downloadAllTs(M3U8Utils.java:228)
+	at com.ler.utils.M3U8Utils.download(M3U8Utils.java:45)
+	at com.ler.controller.M3U8Controller.myOne(M3U8Controller.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.ler.utils.M3U8Utils.lambda$downloadAllTs$0(M3U8Utils.java:237)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2023-02-20 10:35:05.073 [INFO] 42618 [080-exec-2] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:35:05.074 [INFO] 42618 [080-exec-2] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:35:05.075 [INFO] 42618 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:35:05.076 [INFO] 42618 [l-worker-3] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:35:05.076 [INFO] 42618 [l-worker-0] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:35:05.076 [INFO] 42618 [080-exec-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:35:05.076 [INFO] 42618 [l-worker-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:35:10.782 [ERROR] 42618 [080-exec-2] [c.l.c.DefaultGlobalExceptionHandler][61]  handleException, ex caught, uri=/m3u8/m3u8/my/one, httpResult={"code":-1,"message":"服务器异常！","status":false}
+java.lang.NullPointerException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.ler.utils.M3U8Utils.downloadAllTs(M3U8Utils.java:228)
+	at com.ler.utils.M3U8Utils.download(M3U8Utils.java:45)
+	at com.ler.controller.M3U8Controller.myOne(M3U8Controller.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.ler.utils.M3U8Utils.lambda$downloadAllTs$0(M3U8Utils.java:237)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2023-02-20 10:37:12.367 [INFO] 42618 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:37:17.045 [INFO] 42829 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42829 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:37:17.048 [INFO] 42829 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:37:17.692 [INFO] 42829 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:37:17.699 [INFO] 42829 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:37:17.700 [INFO] 42829 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:37:17.701 [INFO] 42829 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:37:17.771 [INFO] 42829 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:37:17.771 [INFO] 42829 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 687 ms
+2023-02-20 10:37:17.950 [INFO] 42829 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:37:18.004 [INFO] 42829 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:37:18.084 [INFO] 42829 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:37:18.106 [INFO] 42829 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:37:18.113 [INFO] 42829 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.466 seconds (JVM running for 2.089)
+2023-02-20 10:37:22.003 [INFO] 42829 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:37:22.003 [INFO] 42829 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:37:22.008 [INFO] 42829 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 10:37:25.074 [INFO] 42829 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:37:25.074 [INFO] 42829 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:37:25.078 [INFO] 42829 [l-worker-0] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:37:25.078 [INFO] 42829 [l-worker-1] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:37:25.078 [INFO] 42829 [l-worker-3] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:37:25.078 [INFO] 42829 [080-exec-1] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:37:25.079 [INFO] 42829 [l-worker-2] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 7
+2023-02-20 10:37:30.793 [ERROR] 42829 [080-exec-1] [c.l.c.DefaultGlobalExceptionHandler][61]  handleException, ex caught, uri=/m3u8/m3u8/my/one, httpResult={"code":-1,"message":"服务器异常！","status":false}
+java.lang.NullPointerException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.ler.utils.M3U8Utils.downloadAllTs(M3U8Utils.java:228)
+	at com.ler.utils.M3U8Utils.download(M3U8Utils.java:45)
+	at com.ler.controller.M3U8Controller.myOne(M3U8Controller.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.ler.utils.M3U8Utils.lambda$downloadAllTs$0(M3U8Utils.java:240)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2023-02-20 10:38:12.684 [INFO] 42829 [080-exec-2] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:38:12.685 [INFO] 42829 [080-exec-2] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:38:12.686 [INFO] 42829 [l-worker-1] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:38:12.686 [INFO] 42829 [l-worker-2] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:38:12.686 [INFO] 42829 [080-exec-2] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:38:12.687 [INFO] 42829 [l-worker-0] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:38:12.687 [INFO] 42829 [l-worker-3] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:38:15.731 [INFO] 42829 [l-worker-2] [c.l.u.M3U8Utils][245]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:38:15.907 [ERROR] 42829 [080-exec-2] [c.l.c.DefaultGlobalExceptionHandler][61]  handleException, ex caught, uri=/m3u8/m3u8/my/one, httpResult={"code":-1,"message":"服务器异常！","status":false}
+java.lang.NullPointerException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.ler.utils.M3U8Utils.downloadAllTs(M3U8Utils.java:228)
+	at com.ler.utils.M3U8Utils.download(M3U8Utils.java:45)
+	at com.ler.controller.M3U8Controller.myOne(M3U8Controller.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.ler.utils.M3U8Utils.lambda$downloadAllTs$0(M3U8Utils.java:240)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2023-02-20 10:38:31.382 [INFO] 42829 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:38:36.439 [INFO] 42898 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42898 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:38:36.443 [INFO] 42898 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:38:37.554 [INFO] 42898 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:38:37.579 [INFO] 42898 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:38:37.581 [INFO] 42898 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:38:37.582 [INFO] 42898 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:38:37.693 [INFO] 42898 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:38:37.693 [INFO] 42898 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 1196 ms
+2023-02-20 10:38:37.930 [INFO] 42898 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:38:38.000 [INFO] 42898 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:38:38.099 [INFO] 42898 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:38:38.145 [INFO] 42898 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:38:38.156 [INFO] 42898 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 2.201 seconds (JVM running for 2.958)
+2023-02-20 10:38:45.007 [INFO] 42898 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:38:45.008 [INFO] 42898 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:38:45.012 [INFO] 42898 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 4 ms
+2023-02-20 10:38:47.153 [INFO] 42898 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:38:47.153 [INFO] 42898 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:39:10.578 [INFO] 42898 [l-worker-0] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:39:10.578 [INFO] 42898 [l-worker-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:39:10.578 [INFO] 42898 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:39:10.578 [INFO] 42898 [l-worker-3] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:39:10.578 [INFO] 42898 [080-exec-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:39:14.299 [INFO] 42898 [l-worker-2] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:39:17.711 [INFO] 42898 [l-worker-1] [c.l.u.M3U8Utils][242]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 1
+2023-02-20 10:39:19.795 [INFO] 42898 [080-exec-1] [c.l.u.M3U8Utils][256]  文件下载完毕
+2023-02-20 10:39:19.796 [INFO] 42898 [080-exec-1] [c.l.u.M3U8Utils][267]  开始合并...
+2023-02-20 10:39:19.809 [INFO] 42898 [080-exec-1] [c.l.u.M3U8Utils][285]  合并完成
+2023-02-20 10:39:19.810 [INFO] 42898 [080-exec-1] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:39:22.860 [INFO] 42898 [080-exec-1] [c.l.u.FfmpegUtils][62]  转码完成,耗时: 3秒
+2023-02-20 10:39:22.861 [INFO] 42898 [080-exec-1] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟37秒
+2023-02-20 10:39:51.233 [INFO] 42898 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:39:55.710 [INFO] 42959 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 42959 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:39:55.714 [INFO] 42959 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:39:56.541 [INFO] 42959 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:39:56.550 [INFO] 42959 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:39:56.551 [INFO] 42959 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:39:56.552 [INFO] 42959 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:39:56.640 [INFO] 42959 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:39:56.641 [INFO] 42959 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 890 ms
+2023-02-20 10:39:56.797 [INFO] 42959 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:39:56.865 [INFO] 42959 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:39:56.957 [INFO] 42959 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:39:56.985 [INFO] 42959 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:39:56.996 [INFO] 42959 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.65 seconds (JVM running for 2.179)
+2023-02-20 10:40:02.590 [INFO] 42959 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:40:02.590 [INFO] 42959 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:40:02.595 [INFO] 42959 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 4 ms
+2023-02-20 10:40:05.816 [INFO] 42959 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:40:05.816 [INFO] 42959 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:40:05.821 [INFO] 42959 [l-worker-2] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:40:05.821 [INFO] 42959 [l-worker-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:40:05.821 [INFO] 42959 [l-worker-3] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:40:05.821 [INFO] 42959 [l-worker-0] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:40:05.821 [INFO] 42959 [080-exec-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:40:09.090 [INFO] 42959 [l-worker-2] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:40:10.706 [INFO] 42959 [l-worker-3] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 1
+2023-02-20 10:40:13.161 [INFO] 42959 [080-exec-1] [c.l.u.M3U8Utils][250]  文件下载完毕
+2023-02-20 10:40:13.162 [INFO] 42959 [080-exec-1] [c.l.u.M3U8Utils][261]  开始合并...
+2023-02-20 10:40:13.175 [INFO] 42959 [080-exec-1] [c.l.u.M3U8Utils][279]  合并完成
+2023-02-20 10:40:13.176 [INFO] 42959 [080-exec-1] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:40:15.731 [INFO] 42959 [080-exec-1] [c.l.u.FfmpegUtils][62]  转码完成,耗时: 2秒
+2023-02-20 10:40:15.731 [INFO] 42959 [080-exec-1] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟13秒
+2023-02-20 10:41:29.076 [INFO] 42959 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:41:31.779 [INFO] 43025 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 43025 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:41:31.782 [INFO] 43025 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:41:32.529 [INFO] 43025 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:41:32.537 [INFO] 43025 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:41:32.538 [INFO] 43025 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:41:32.539 [INFO] 43025 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:41:32.618 [INFO] 43025 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:41:32.618 [INFO] 43025 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 796 ms
+2023-02-20 10:41:32.787 [INFO] 43025 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:41:32.860 [INFO] 43025 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:41:32.964 [INFO] 43025 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:41:32.992 [INFO] 43025 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:41:33.002 [INFO] 43025 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.555 seconds (JVM running for 2.103)
+2023-02-20 10:42:09.752 [INFO] 43025 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:42:09.753 [INFO] 43025 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:42:09.757 [INFO] 43025 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 4 ms
+2023-02-20 10:42:13.350 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:42:13.350 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:42:13.354 [INFO] 43025 [l-worker-2] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:42:13.354 [INFO] 43025 [l-worker-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:42:13.354 [INFO] 43025 [l-worker-3] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:42:13.354 [INFO] 43025 [l-worker-0] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:42:13.354 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:42:17.019 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 2
+2023-02-20 10:42:17.546 [INFO] 43025 [l-worker-2] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:42:20.689 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][250]  文件下载完毕
+2023-02-20 10:42:20.690 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][261]  开始合并...
+2023-02-20 10:42:20.704 [INFO] 43025 [080-exec-1] [c.l.u.M3U8Utils][279]  合并完成
+2023-02-20 10:42:20.709 [INFO] 43025 [080-exec-1] [c.l.u.FfmpegUtils][21]  开始转码...
+2023-02-20 10:42:44.099 [INFO] 43025 [080-exec-1] [c.l.u.FfmpegUtils][62]  转码完成,耗时: 23秒
+2023-02-20 10:42:44.100 [INFO] 43025 [080-exec-1] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟34秒
+2023-02-20 10:45:11.241 [INFO] 43025 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:45:16.323 [INFO] 43210 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 43210 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 10:45:16.327 [INFO] 43210 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 10:45:17.316 [INFO] 43210 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 10:45:17.324 [INFO] 43210 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:45:17.325 [INFO] 43210 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 10:45:17.325 [INFO] 43210 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 10:45:17.447 [INFO] 43210 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 10:45:17.447 [INFO] 43210 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 1063 ms
+2023-02-20 10:45:17.630 [INFO] 43210 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 10:45:17.695 [INFO] 43210 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 10:45:17.881 [INFO] 43210 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 10:45:17.924 [INFO] 43210 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 10:45:17.941 [INFO] 43210 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.964 seconds (JVM running for 2.51)
+2023-02-20 10:45:59.819 [INFO] 43210 [080-exec-1] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 10:45:59.819 [INFO] 43210 [080-exec-1] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 10:45:59.824 [INFO] 43210 [080-exec-1] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 10:46:02.644 [INFO] 43210 [080-exec-1] [c.l.u.M3U8Utils][221]  共 7个片段
+2023-02-20 10:46:02.645 [INFO] 43210 [080-exec-1] [c.l.u.M3U8Utils][222]  总时长 = 0分钟31秒
+2023-02-20 10:46:02.649 [INFO] 43210 [l-worker-3] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 1 个 : index_000.ts 还剩: 7
+2023-02-20 10:46:02.649 [INFO] 43210 [l-worker-2] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 7 个 : index_006.ts 还剩: 7
+2023-02-20 10:46:02.649 [INFO] 43210 [l-worker-0] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 6 个 : index_005.ts 还剩: 7
+2023-02-20 10:46:02.649 [INFO] 43210 [080-exec-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 5 个 : index_004.ts 还剩: 7
+2023-02-20 10:46:02.649 [INFO] 43210 [l-worker-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 2 个 : index_001.ts 还剩: 7
+2023-02-20 10:46:11.147 [INFO] 43210 [l-worker-2] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 3 个 : index_002.ts 还剩: 2
+2023-02-20 10:46:13.623 [INFO] 43210 [l-worker-1] [c.l.u.M3U8Utils][236]  共 7个片段: 开始下载第 4 个 : index_003.ts 还剩: 1
+2023-02-20 10:46:17.778 [INFO] 43210 [080-exec-1] [c.l.u.M3U8Utils][250]  文件下载完毕
+2023-02-20 10:46:17.781 [INFO] 43210 [080-exec-1] [c.l.u.M3U8Utils][261]  开始合并...
+2023-02-20 10:46:17.801 [INFO] 43210 [080-exec-1] [c.l.u.M3U8Utils][279]  合并完成
+2023-02-20 10:46:17.802 [INFO] 43210 [080-exec-1] [c.l.u.FfmpegUtils][22]  开始转码...
+2023-02-20 10:46:20.358 [INFO] 43210 [080-exec-1] [c.l.u.FfmpegUtils][63]  转码完成,耗时: 2秒
+2023-02-20 10:46:20.358 [INFO] 43210 [080-exec-1] [c.l.c.M3U8Controller][40]  已完成,耗时: 0分钟20秒
+2023-02-20 10:46:32.726 [INFO] 43210 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-20 13:17:00.344 [INFO] 45051 [main] [c.l.M3U8DownloaderApplication][55]  Starting M3U8DownloaderApplication on lww-de-MacBook-Pro.local with PID 45051 (/Users/lww/Desktop/workspace/m3u8downloader/target/classes started by lww in /Users/lww/Desktop/workspace/m3u8downloader)
+2023-02-20 13:17:00.347 [INFO] 45051 [main] [c.l.M3U8DownloaderApplication][651]  No active profile set, falling back to default profiles: default
+2023-02-20 13:17:01.323 [INFO] 45051 [main] [o.s.b.w.e.t.TomcatWebServer][108]  Tomcat initialized with port(s): 8080 (http)
+2023-02-20 13:17:01.330 [INFO] 45051 [main] [o.a.c.h.Http11NioProtocol][173]  Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-20 13:17:01.331 [INFO] 45051 [main] [o.a.c.c.StandardService][173]  Starting service [Tomcat]
+2023-02-20 13:17:01.332 [INFO] 45051 [main] [o.a.c.c.StandardEngine][173]  Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-20 13:17:01.405 [INFO] 45051 [main] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring embedded WebApplicationContext
+2023-02-20 13:17:01.405 [INFO] 45051 [main] [o.s.b.w.s.c.ServletWebServerApplicationContext][285]  Root WebApplicationContext: initialization completed in 1016 ms
+2023-02-20 13:17:01.545 [INFO] 45051 [main] [o.s.s.c.ThreadPoolTaskExecutor][181]  Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-20 13:17:01.607 [INFO] 45051 [main] [o.s.b.a.w.s.WelcomePageHandlerMapping][58]  Adding welcome page template: index
+2023-02-20 13:17:01.697 [INFO] 45051 [main] [o.a.c.h.Http11NioProtocol][173]  Starting ProtocolHandler ["http-nio-8080"]
+2023-02-20 13:17:01.733 [INFO] 45051 [main] [o.s.b.w.e.t.TomcatWebServer][220]  Tomcat started on port(s): 8080 (http) with context path '/m3u8'
+2023-02-20 13:17:01.743 [INFO] 45051 [main] [c.l.M3U8DownloaderApplication][61]  Started M3U8DownloaderApplication in 1.934 seconds (JVM running for 2.977)
+2023-02-20 13:17:25.689 [INFO] 45051 [080-exec-4] [o.a.c.c.C.[.[.[/m3u8]][173]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 13:17:25.689 [INFO] 45051 [080-exec-4] [o.s.w.s.DispatcherServlet][525]  Initializing Servlet 'dispatcherServlet'
+2023-02-20 13:17:25.695 [INFO] 45051 [080-exec-4] [o.s.w.s.DispatcherServlet][547]  Completed initialization in 5 ms
+2023-02-20 13:26:02.553 [INFO] 45051 [utdownHook] [o.s.s.c.ThreadPoolTaskExecutor][218]  Shutting down ExecutorService 'applicationTaskExecutor'
